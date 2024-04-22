@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="InventoryManagementSystem/AuthMicroService/src/main/java"/>
+	<classpathentry kind="src" path="InventoryManagementSystem/AuthMicroService/src/test/java"/>
+	<classpathentry kind="src" path="InventoryManagementSystem/InventoryManagementSystem-Base/src/main/java"/>
+	<classpathentry kind="src" path="InventoryManagementSystem/ProductMicroService/src/main/java"/>
+	<classpathentry kind="src" path="InventoryManagementSystem/ProductMicroService/src/test/java"/>
+	<classpathentry kind="src" path="InventoryManagementSystem/SaleMicroService/src/main/java"/>
+	<classpathentry kind="src" path="InventoryManagementSystem/SaleMicroService/src/test/java"/>
+	<classpathentry kind="lib" path="InventoryManagementSystem/AuthMicroService/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="InventoryManagementSystem/InventoryManagementSystem-Base/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="InventoryManagementSystem/ProductMicroService/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="InventoryManagementSystem/SaleMicroService/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/InventoryManagementSystem/InventoryManagementSystem-Base" name="InventoryManagementSystem-Base">
+                <projects>
+                  <project path="$PROJECT_DIR$/InventoryManagementSystem/InventoryManagementSystem-Base" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/InventoryManagementSystem/AuthMicroService" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/InventoryManagementSystem/AuthMicroService" />
+            <option value="$PROJECT_DIR$/InventoryManagementSystem/InventoryManagementSystem-Base" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/InventoryManagementSystem/InventoryManagementSystem-Base" name="InventoryManagementSystem-Base">
+                <projects>
+                  <project path="$PROJECT_DIR$/InventoryManagementSystem/InventoryManagementSystem-Base" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/InventoryManagementSystem/ProductMicroService" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/InventoryManagementSystem/InventoryManagementSystem-Base" />
+            <option value="$PROJECT_DIR$/InventoryManagementSystem/ProductMicroService" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/InventoryManagementSystem/InventoryManagementSystem-Base" name="InventoryManagementSystem-Base">
+                <projects>
+                  <project path="$PROJECT_DIR$/InventoryManagementSystem/InventoryManagementSystem-Base" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/InventoryManagementSystem/SaleMicroService" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/InventoryManagementSystem/InventoryManagementSystem-Base" />
+            <option value="$PROJECT_DIR$/InventoryManagementSystem/SaleMicroService" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  auth-service:
+    build:
+      context: ./AuthMicroService
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - inventory-network
+    healthcheck:
+      test: [ "CMD", "curl", "--fail", "http://localhost:8080/health" ]
+      interval: 10s
+      retries: 3
+      timeout: 5s
+      start_period: 20s
+
+  product-service:
+    build:
+      context: ./ProductMicroService
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    networks:
+      - inventory-network
+    healthcheck:
+      test: [ "CMD", "curl", "--fail", "http://localhost:8081/health" ]
+      interval: 10s
+      retries: 3
+      timeout: 5s
+      start_period: 20s
+
+  sale-service:
+    build:
+      context: ./SaleMicroService
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+    networks:
+      - inventory-network
+    healthcheck:
+      test: [ "CMD", "curl", "--fail", "http://localhost:8082/health" ]
+      interval: 10s
+      retries: 3
+      timeout: 5s
+      start_period: 20s
+
+#  cassandra:
+#    build: .
+#    image: cassandra
+#    container_name: cassandradb
+#    volumes:
+#      - ./cassandra.yaml:/etc/cassandra/cassandra.yaml
+#    ports:
+#      - "9042:9042"
+#    networks:
+#      - inventory-network
+
+networks:
+  inventory-network:
+    driver: bridge
